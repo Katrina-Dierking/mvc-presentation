@@ -8,6 +8,8 @@ function PageOne() {
         description="start of MVC presentation"
         link = "https://hertimetocode.com"
         item="HOME"
+        prev =""
+        next=""
    />
   )
 }

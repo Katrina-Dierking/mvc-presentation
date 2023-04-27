@@ -3,12 +3,40 @@
 
 .mainModal {
     @include border();
+    @include display(); 
+    flex-direction: column;
+    background-color: $secondary;
     width: 75vw;
     margin: 0 auto;
+      overflow: hidden;
     
+    .next {
+        margin-top:28%;
+    }
 }
 
 h1 {
     font-size: 68px;
     text-decoration: underline;
+}
+
+a{
+    @include a();
+
+}
+a:hover {
+    @include ahover();
+}
+
+span {
+    font-size: 12px;
+    border: 1px solid $solid;
+    padding: 15%;
+}
+
+.pages {
+    width: 70vw;
+    margin: 0 auto;
+    @include display();
+    justify-content: space-between;
 }
