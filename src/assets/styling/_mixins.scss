@@ -29,3 +29,9 @@
     padding:1%;
     @include a();
 }
+
+@mixin img {
+    width: 150px;
+    height: 150px;
+    @include border();
+}
