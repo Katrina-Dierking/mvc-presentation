@@ -1,3 +1,14 @@
 @import '../assets/styling/colors';
 @import '../assets/styling/mixins';
 
+.mainModal {
+    @include border();
+    width: 75vw;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    font-size: 68px;
+    text-decoration: underline;
+}

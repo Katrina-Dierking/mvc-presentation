@@ -1,0 +1,13 @@
+@import './assets/styling/colors';
+@import './assets/styling/mixins';
+
+
+.App {
+  @include display();
+  padding:3%;
+  text-align: center;
+  width: 100%;
+  height: 65%;
+  background-color: $links;
+}
+
