@@ -8,6 +8,7 @@ function Main(
       img, 
       description, 
       secondPara,
+      thirdPara,
       link, 
       item, 
       pageNumber, 
@@ -23,6 +24,8 @@ function Main(
         <h1>{title}</h1>
         <p>{description}</p>
         <p>{secondPara}</p>
+        <hr></hr>
+        <p>{thirdPara}</p>
         <img src={img} alt="" />
         <a href={link}>{item}</a>
         </div>

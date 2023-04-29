@@ -20,6 +20,13 @@ h1 {
     text-decoration: underline;
 }
 
+hr, p{
+    width: 70%;
+    margin:0 auto;
+}
+ p{ 
+    padding: 1%;
+ }
 
 button:hover {
     @include buttonHover();
