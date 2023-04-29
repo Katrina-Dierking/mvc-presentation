@@ -30,9 +30,15 @@
 
 @mixin button {
     border-radius:5%;
-    background-color:$teal;
-    padding:1%;
-    @include a();
+    background-color:$solid;
+    width: 30px;
+    font-size: 14px;
+}
+
+@mixin buttonHover {
+    background-color: $primary;
+    color: $solid;
+    font-size:18px;
 }
 
 @mixin img {
