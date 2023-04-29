@@ -15,6 +15,8 @@ function PageOne() {
         urlTwo = "/pagetwo"
         next = ">>"
         />
+        <p>SLIDE NOTES:</p>
+
  
     </>
   );
