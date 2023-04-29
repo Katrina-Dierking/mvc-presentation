@@ -5,7 +5,7 @@ function PageTwo() {
   return (
     <Main
       title="PAGE TWO"
-      description="start of MVC presentation"
+      description="second slide"
       link="https://hertimetocode.com"
       pageNumber="2"
       url="/"

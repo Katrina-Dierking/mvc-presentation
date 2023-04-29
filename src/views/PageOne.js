@@ -7,7 +7,8 @@ function PageOne() {
     <>
       <Main
         title="PAGE ONE"
-        description="start of MVC presentation"
+        description="This is the beginning of my MVC presentation"
+        secondPara="this is the second paragraph."
         link="https://hertimetocode.com"
         pageNumber="1"
         urlTwo = "/pagetwo"

@@ -5,7 +5,7 @@ function PageFour() {
   return (
     <Main
       title="PAGE FOUR"
-      description="start of MVC presentation"
+      description="fourth slide "
       link="https://hertimetocode.com"
       pageNumber="4"
       url="/pagethree"

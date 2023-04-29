@@ -7,6 +7,7 @@ function Main(
       title, 
       img, 
       description, 
+      secondPara,
       link, 
       item, 
       pageNumber, 
@@ -20,17 +21,18 @@ function Main(
     <div className="mainModal">
       <div>
         <h1>{title}</h1>
-        <img src={img} alt="" />
         <p>{description}</p>
+        <p>{secondPara}</p>
+        <img src={img} alt="" />
         <a href={link}>{item}</a>
         </div>
         <div className="links">
         
           <Link to={url}>
-          <button className="pagButtonPrev">{prev}</button>
+            <button className="pagButtonPrev">{prev}</button>
           </Link>
           <Link to={urlTwo}>
-          <button className="pagButtonNext">{next}</button>
+            <button className="pagButtonNext">{next}</button>
           </Link>
         </div>
         <p>{pageNumber}</p>

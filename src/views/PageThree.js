@@ -6,7 +6,7 @@ function PageThree() {
  
       <Main
         title="PAGE THREE"
-        description="start of MVC presentation"
+        description="third slide"
         link="https://hertimetocode.com"
         pageNumber="3"
         url="/pagetwo"
